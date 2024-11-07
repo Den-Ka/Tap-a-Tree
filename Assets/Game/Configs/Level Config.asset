@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1da70caafbe04bca86b07dc16bead7df, type: 3}
+  m_Name: Level Config
+  m_EditorClassIdentifier: 
+  _treesSprites:
+  - {fileID: -2061507896760950470, guid: 9eadde55d50e77247969d8645c5593d5, type: 3}
+  - {fileID: 2021313657485250038, guid: 3af1ec89cff18a14e9bf43efe07a09c9, type: 3}
+  - {fileID: -5649629454133883724, guid: 2731e5e45901e9a44840a5bafa9e9354, type: 3}
+  - {fileID: -2003701935599869284, guid: 094fc2345dbda534580408f93b6b2420, type: 3}
+  - {fileID: -8249467688163545132, guid: 5cb85a599b998af419fc5ec55679159e, type: 3}
