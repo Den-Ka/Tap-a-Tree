@@ -9,8 +9,34 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ee6a1d81b4f442382b4aaf52253f456, type: 3}
+  m_Script: {fileID: 11500000, guid: 1da70caafbe04bca86b07dc16bead7df, type: 3}
   m_Name: Game Config
   m_EditorClassIdentifier: 
-  <MinDistanceBetweenTrees>k__BackingField: 0.7
+  _treesSprites:
+  - {fileID: -2061507896760950470, guid: 9eadde55d50e77247969d8645c5593d5, type: 3}
+  - {fileID: 2021313657485250038, guid: 3af1ec89cff18a14e9bf43efe07a09c9, type: 3}
+  - {fileID: -5649629454133883724, guid: 2731e5e45901e9a44840a5bafa9e9354, type: 3}
+  - {fileID: -2003701935599869284, guid: 094fc2345dbda534580408f93b6b2420, type: 3}
+  - {fileID: -8249467688163545132, guid: 5cb85a599b998af419fc5ec55679159e, type: 3}
+  - {fileID: 21300000, guid: 0210b2457f9ce8e41a03ee997ebeeeed, type: 3}
+  - {fileID: 21300000, guid: 0f3608ef1077ec042b82c52f50fc8088, type: 3}
+  - {fileID: 21300000, guid: ff70ffd4701a98f4485dd968d517d061, type: 3}
+  _decorativeFoliageSprites:
+  - {fileID: 21300000, guid: 7c971812418a39346bd44acb95cf581e, type: 3}
+  - {fileID: 21300000, guid: fd6520715e54b064dac9614627bc6446, type: 3}
+  - {fileID: 21300000, guid: 7a84c60571088d247a8813c6d1cea5f0, type: 3}
+  - {fileID: 21300000, guid: 61cfd4c8519918c4a8b3b044efb211c0, type: 3}
+  - {fileID: 21300000, guid: 99655dbe16f08a2469bf9468439c9a30, type: 3}
+  - {fileID: 21300000, guid: d82328e7577cde042bc48ab43e0e7a3d, type: 3}
+  - {fileID: 21300000, guid: 1649c6800886fc54d874e60d3e3929d1, type: 3}
+  - {fileID: 21300000, guid: b242c89fcc944704f99f65466afe2515, type: 3}
+  - {fileID: 21300000, guid: 144008314b40e5c4d8fc63a62588ca1e, type: 3}
+  - {fileID: 21300000, guid: 48c13da83b3e1d444baa5cce080f307b, type: 3}
+  - {fileID: 21300000, guid: 2a759c0d47f3a35479d00b00919274d3, type: 3}
+  - {fileID: 21300000, guid: 15c08beea0f06e040bd306ff1124b03b, type: 3}
+  <MinDistanceBetweenTrees>k__BackingField: 0.75
   <MaxDistanceBetweenTrees>k__BackingField: 4
+  <MinDistanceBetweenDecorativeFoliage>k__BackingField: 0.2
+  <MaxDistanceBetweenDecorativeFoliage>k__BackingField: 1
+  _treeHealth: 5
+  _fruitSpawnChance: 0.8
