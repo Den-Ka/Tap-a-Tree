@@ -49,6 +49,7 @@ namespace Tap_a_Tree.UI.Controllers
             InstantiateResourceUI(ResourceType.Orange);
             InstantiateResourceUI(ResourceType.Pear);
             _resourcesDictionary.Add(ResourceType.Wood, _scoresContainerUI);
+            _scoresContainerUI.Value = _resourceService.Get(ResourceType.Wood);
         }
 
         private void ClearContainer()
